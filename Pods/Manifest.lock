@@ -1,0 +1,47 @@
+PODS:
+  - AARatingBar (0.1.1)
+  - Alamofire (4.9.1)
+  - GoogleMaps (3.7.0):
+    - GoogleMaps/Maps (= 3.7.0)
+  - GoogleMaps/Base (3.7.0)
+  - GoogleMaps/Maps (3.7.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.7.0):
+    - GoogleMaps/Base (= 3.7.0)
+  - JGProgressHUD (2.1)
+  - Kingfisher (5.12.0):
+    - Kingfisher/Core (= 5.12.0)
+  - Kingfisher/Core (5.12.0)
+  - NVActivityIndicatorView/AppExtension (4.8.0)
+
+DEPENDENCIES:
+  - AARatingBar
+  - Alamofire
+  - GoogleMaps
+  - GooglePlaces
+  - JGProgressHUD
+  - Kingfisher
+  - NVActivityIndicatorView/AppExtension
+
+SPEC REPOS:
+  trunk:
+    - AARatingBar
+    - Alamofire
+    - GoogleMaps
+    - GooglePlaces
+    - JGProgressHUD
+    - Kingfisher
+    - NVActivityIndicatorView
+
+SPEC CHECKSUMS:
+  AARatingBar: 24e09c431f3e2aaa2eb91b897360c6c28b69a9c9
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  GoogleMaps: 55da829c68aa931f3ae982b9e341cc2f3d89c587
+  GooglePlaces: a62077320f9d64239245af63aa1aa136393ebeb6
+  JGProgressHUD: aa403e9a5b45cae98903c4600cccdd98c0c3ec90
+  Kingfisher: dc6e0f53bb5b12c3e75bedb0e01bbd7a640eea69
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+
+PODFILE CHECKSUM: 8dc1e6cc0b269f734bd6a1b519a603efb35f7441
+
+COCOAPODS: 1.8.4
