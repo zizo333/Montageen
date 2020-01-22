@@ -24,5 +24,6 @@ public let KADDTOCART = KURL + "addtocart"
 public let KMYORDERS = KURL + "myorders"
 public let KCARTITEMS = KURL + "cartitems"
 public let KDELETECARTITEM = KURL + "delcartitem"
+public let KMYORDER = KURL + "myorders"
 
 public let KUSERID = "userId"

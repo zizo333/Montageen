@@ -302,7 +302,30 @@ class Request {
             case .success(let data):
                 do {
                     let message = try JSONDecoder().decode(DeleteCartItem.self, from: data)
-                    return completion(message.message!)
+                    completion(message.message!)
+                } catch {
+                    print(error.localizedDescription)
+                }
+                
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+    }
+    
+    // MARK: - my order request
+    static func getMyOrder(parameters: [String : Int], completion: @escaping(_ orderData: [MyOrderData]?) -> Void) {
+        guard let url = URL(string: KMYORDER) else { return }
+        request(url, method: .post, parameters: parameters, encoding: URLEncoding.default, headers: nil).validate().responseData { (response) in
+            switch response.result {
+            case .success(let data):
+                do {
+                    let _data = try JSONDecoder().decode(MyOrder.self, from: data)
+                    if _data.message! {
+                        completion(_data.data!)
+                    } else {
+                        completion(nil)
+                    }
                 } catch {
                     print(error.localizedDescription)
                 }
