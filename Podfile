@@ -13,4 +13,7 @@ target 'FirstApp' do
   pod 'AARatingBar'
   pod 'GoogleMaps'
   pod 'GooglePlaces'
+  
+  # mapbox
+  pod 'MapboxNavigation'
 end

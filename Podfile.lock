@@ -12,7 +12,26 @@ PODS:
   - Kingfisher (5.12.0):
     - Kingfisher/Core (= 5.12.0)
   - Kingfisher/Core (5.12.0)
+  - Mapbox-iOS-SDK (5.5.0)
+  - MapboxCoreNavigation (0.38.2):
+    - MapboxDirections.swift (~> 0.30.0)
+    - MapboxMobileEvents (~> 0.9.5)
+    - MapboxNavigationNative (~> 6.2.1)
+    - Turf (~> 0.3.0)
+  - MapboxDirections.swift (0.30.0):
+    - Polyline (~> 4.2)
+  - MapboxMobileEvents (0.9.5)
+  - MapboxNavigation (0.38.2):
+    - Mapbox-iOS-SDK (~> 5.5.0)
+    - MapboxCoreNavigation (= 0.38.2)
+    - MapboxSpeech (~> 0.1.0)
+    - Solar (~> 2.1)
+  - MapboxNavigationNative (6.2.1)
+  - MapboxSpeech (0.1.1)
   - NVActivityIndicatorView/AppExtension (4.8.0)
+  - Polyline (4.2.1)
+  - Solar (2.1.0)
+  - Turf (0.3.0)
 
 DEPENDENCIES:
   - AARatingBar
@@ -21,6 +40,7 @@ DEPENDENCIES:
   - GooglePlaces
   - JGProgressHUD
   - Kingfisher
+  - MapboxNavigation
   - NVActivityIndicatorView/AppExtension
 
 SPEC REPOS:
@@ -31,7 +51,17 @@ SPEC REPOS:
     - GooglePlaces
     - JGProgressHUD
     - Kingfisher
+    - Mapbox-iOS-SDK
+    - MapboxCoreNavigation
+    - MapboxDirections.swift
+    - MapboxMobileEvents
+    - MapboxNavigation
+    - MapboxNavigationNative
+    - MapboxSpeech
     - NVActivityIndicatorView
+    - Polyline
+    - Solar
+    - Turf
 
 SPEC CHECKSUMS:
   AARatingBar: 24e09c431f3e2aaa2eb91b897360c6c28b69a9c9
@@ -40,8 +70,18 @@ SPEC CHECKSUMS:
   GooglePlaces: a62077320f9d64239245af63aa1aa136393ebeb6
   JGProgressHUD: aa403e9a5b45cae98903c4600cccdd98c0c3ec90
   Kingfisher: dc6e0f53bb5b12c3e75bedb0e01bbd7a640eea69
+  Mapbox-iOS-SDK: 7fa66a27e586acb14c7f32ec5a487343e3994451
+  MapboxCoreNavigation: c94d4f82ffcb7899192a1a89079b702752c5870f
+  MapboxDirections.swift: 1c6df988c24b753888ebd9976d7c98632501a413
+  MapboxMobileEvents: f6c21b2e59066c5c7093585de7c15adae3b63da0
+  MapboxNavigation: f65d6f818107333474fc0de4ecd9afb58269c39f
+  MapboxNavigationNative: 11dc22140f4698d3f26989f2b6379dc81ef0d4c1
+  MapboxSpeech: 59b3984d3f433a443d24acf53097f918c5cc70f9
   NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  Polyline: 0e9890790292741c8186201a536b6bb6a78d02dd
+  Solar: 2dc6e7cc39186cb0c8228fa08df76fb50c7d8f24
+  Turf: c6bdf62d6a70c647874f295dd1cf4eefc0c3e9e6
 
-PODFILE CHECKSUM: 8dc1e6cc0b269f734bd6a1b519a603efb35f7441
+PODFILE CHECKSUM: a29d7af314ae1c77f4cdf84624704631b85dd3b5
 
 COCOAPODS: 1.8.4
